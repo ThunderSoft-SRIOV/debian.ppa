@@ -238,63 +238,57 @@ Checksums-Sha512:
 
 Package: qemu
 Format: 3.0 (quilt)
-Binary: qemu-system, qemu-block-extra, qemu-block-supplemental, qemu-system-data, qemu-system-common, qemu-system-gui, qemu-system-modules-spice, qemu-system-modules-opengl, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-s390x, qemu-system-x86-xen, qemu-system-x86, qemu-system-xen, qemu-user, qemu-user-static, qemu-user-binfmt, qemu-utils, qemu-guest-agent
+Binary: qemu-system, qemu-block-extra, qemu-system-data, qemu-system-common, qemu-system-gui, qemu-system-modules-spice, qemu-system-modules-opengl, qemu-system-misc, qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-system-xen, qemu-user, qemu-user-static, qemu-user-binfmt, qemu-utils, qemu-guest-agent
 Architecture: any all
-Version: 1:8.2.1-ppa1~sriov~bookworm1
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Version: 1:8.2.4-ppa1~sriov~bookworm1
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Uploaders: Michael Tokarev <mjt@tls.msk.ru>
-Standards-Version: 4.6.1
-Build-Depends: debhelper-compat (= 13), python3:any, meson (>> 0.63.0~), ninja-build, flex, bison
-Build-Depends-Arch: python3-venv, texinfo, python3-sphinx:native, python3-sphinx-rtd-theme, libglib2.0-dev, zlib1g-dev, libaio-dev [linux-any], libjack-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libpulse-dev, libasound2-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libpipewire-0.3-dev (>= 0.3.60) [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libbpf-dev [linux-any], libbrlapi-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libcap-ng-dev [linux-any], libcurl4-gnutls-dev, libfdt-dev, libfuse3-dev, gnutls-dev, libgtk-3-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libvte-2.91-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libiscsi-dev, libncurses-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libvirglrenderer-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libepoxy-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libdrm-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libgbm-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libnfs-dev, libnuma-dev [i386 amd64 ia64 mips mipsel mips64 mips64el powerpc powerpcspe x32 ppc64 ppc64el arm64 sparc s390x riscv64], libcacard-dev, libpixman-1-dev, librbd-dev [amd64 arm64 mips64el ppc64el ppc64 riscv64 s390x sparc64], libglusterfs-dev [amd64 arm64 ppc64el ppc64 riscv64 mips64el s390x ia64 sparc64], libsasl2-dev, libsdl2-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64 x32], libseccomp-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64 ppc64el powerpc riscv64 s390x x32], libslirp-dev, libspice-server-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el x32], librdmacm-dev [linux-any], libibverbs-dev [linux-any], libibumad-dev [linux-any], liburing-dev [linux-any], libusb-1.0-0-dev [linux-any], libusbredirparser-dev [linux-any], libssh-dev, libzstd-dev, libxen-dev [linux-amd64], nettle-dev, libudev-dev [linux-any], libjpeg-dev, libpng-dev, libpmem-dev [amd64 arm64]
-Build-Depends-Indep: device-tree-compiler, gcc-s390x-linux-gnu, gcc-alpha-linux-gnu, gcc-powerpc-linux-gnu, bc, gcc-powerpc64-linux-gnu, libssl-dev, gcc-sparc64-linux-gnu, fcode-utils, xsltproc, gcc-hppa-linux-gnu, gcc-riscv64-linux-gnu, gcc-arm-none-eabi
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), python3:any, python3-venv, python3:any (>> 3.11) | python3-tomli, meson (>> 0.63.0~), ninja-build, flex, bison, python3-sphinx:native, python3-sphinx-rtd-theme
+Build-Depends-Arch: libglib2.0-dev, zlib1g-dev, libcapstone-dev, libaio-dev [linux-any], libjack-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libpulse-dev, libasound2-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libpipewire-0.3-dev (>> 0.3.60) [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libbpf-dev [linux-any], libbrlapi-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libcap-ng-dev [linux-any], libcurl4-gnutls-dev, libfdt-dev, libfuse3-dev, gnutls-dev, libgtk-3-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libvte-2.91-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libiscsi-dev, libncurses-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libvirglrenderer-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libepoxy-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libdrm-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libgbm-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libnfs-dev, libnuma-dev [i386 amd64 ia64 mips mipsel mips64 mips64el powerpc powerpcspe x32 ppc64 ppc64el arm64 sparc s390x riscv64], libcacard-dev, libpixman-1-dev, librbd-dev [amd64 arm64 mips64el ppc64el ppc64 riscv64 s390x sparc64], libglusterfs-dev [amd64 arm64 ppc64el ppc64 riscv64 mips64el s390x ia64 sparc64], libsasl2-dev, libsdl2-dev [amd64 arm arm64 armel armhf i386 mips mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sparc sparc64], libseccomp-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64 ppc64el powerpc riscv64 s390x x32], libslirp-dev, libspice-server-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el], librdmacm-dev [linux-any], libibverbs-dev [linux-any], libibumad-dev [linux-any], liburing-dev [linux-any], libusb-1.0-0-dev [linux-any], libusbredirparser-dev [linux-any], libssh-dev, libzstd-dev, libvdeplug-dev, libxen-dev [linux-amd64], nettle-dev, libudev-dev [linux-any], libjpeg-dev, libpng-dev, libpmem-dev [amd64 arm64]
+Build-Depends-Indep: gcc-i686-linux-gnu, device-tree-compiler, gcc-s390x-linux-gnu, gcc-alpha-linux-gnu, gcc-powerpc-linux-gnu, gcc-powerpc64-linux-gnu, libssl-dev, gcc-sparc64-linux-gnu, fcode-utils, xsltproc, gcc-hppa-linux-gnu, gcc-riscv64-linux-gnu, gcc-arm-none-eabi
 Build-Conflicts: oss4-dev
 Testsuite: autopkgtest
 Homepage: http://www.qemu.org/
-Vcs-Browser: https://git.launchpad.net/ubuntu/+source/qemu
-Vcs-Git: https://git.launchpad.net/ubuntu/+source/qemu
+Vcs-Browser: https://salsa.debian.org/qemu-team/qemu
+Vcs-Git: https://salsa.debian.org/qemu-team/qemu.git
 Directory: pool/main/q/qemu
 Package-List:
  qemu-block-extra deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,m68k,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sh4,sparc,sparc64,x32
- qemu-block-supplemental deb otherosfs optional arch=amd64,arm64,ppc64el,riscv64,s390x
  qemu-guest-agent deb otherosfs optional arch=any
- qemu-system deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-arm deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-common deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
+ qemu-system deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-arm deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-common deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
  qemu-system-data deb otherosfs optional arch=all
- qemu-system-gui deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32
- qemu-system-mips deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-misc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-modules-opengl deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-modules-spice deb otherosfs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,x32 profile=!pkg.qemu.omit-system
- qemu-system-ppc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-s390x deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-sparc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-x86 deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-system
- qemu-system-x86-xen deb oldlibs optional arch=amd64
+ qemu-system-gui deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64
+ qemu-system-mips deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-misc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-modules-opengl deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-modules-spice deb otherosfs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el profile=!pkg.qemu.omit-system
+ qemu-system-ppc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-sparc deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
+ qemu-system-x86 deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-system
  qemu-system-xen deb otherosfs optional arch=amd64 profile=!pkg.qemu.omit-system-xen
- qemu-user deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-user
- qemu-user-binfmt deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-user
- qemu-user-static deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64,x32 profile=!pkg.qemu.omit-user-static
+ qemu-user deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-user
+ qemu-user-binfmt deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-user
+ qemu-user-static deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,i386,mips,mips64,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x,sparc,sparc64 profile=!pkg.qemu.omit-user-static
  qemu-utils deb otherosfs optional arch=amd64,arm,arm64,armel,armhf,hppa,i386,ia64,kfreebsd-amd64,kfreebsd-i386,m68k,mips,mips64,mips64el,mipsel,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390x,sh4,sparc,sparc64,x32
 Files:
- 8b90d15ba1e821ca87f7925c6db07547 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
- 4522679239777a665f1c70cef16f26e1 180444918 qemu_8.2.1.orig.tar.gz
- f7295f0e64c437d115f455aecbd2ce7a 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+ 864510b98996a511633339c0fe1e2a7e 7840 qemu_8.2.4-ppa1~sriov~bookworm1.dsc
+ 1e74bf32c0fb2e3751d4b12e82f55eb2 62428701 qemu_8.2.4.orig.tar.gz
+ 48410d0e7795b070e09a5c92ed16e0d5 139648 qemu_8.2.4-ppa1~sriov~bookworm1.debian.tar.xz
 Checksums-Sha1:
- 79acc5345b9dfbe0ab56d628ac450323a1d73524 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
- 9afc898df035955c394a22a0466004cebb8341f2 180444918 qemu_8.2.1.orig.tar.gz
- 8d83a53b5610f3a8aaa5e7fe3228ba86e1001dae 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+ e737b4600e3f5333d7db1b3e95d239818f29d6c7 7840 qemu_8.2.4-ppa1~sriov~bookworm1.dsc
+ c7b866a97a377260764d7b56d50216f2f8822db6 62428701 qemu_8.2.4.orig.tar.gz
+ dd1f1cd271a5422b27c7dd1956306a1bfea99c50 139648 qemu_8.2.4-ppa1~sriov~bookworm1.debian.tar.xz
 Checksums-Sha256:
- 64fce0bfc5f4adfdf85599e9d9663feecb9a657a24c28a2ca3ff4a88723c20b7 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
- a5b98eeabe5a11a9f0e686d15437135d576ae952cb582dacc7e179a1c4c96199 180444918 qemu_8.2.1.orig.tar.gz
- 3f93059392a36ad4ea9b86e19ea037bface5c024e77f14ad17d881d357ef2930 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
+ d63c7fa033e6dd16c8e41a0c7da7da3e781acc77b282998f2c7c73e9beada9ad 7840 qemu_8.2.4-ppa1~sriov~bookworm1.dsc
+ 81109d87bd4fdb19531449782491fbcd2a9739000f33648a77c045413142a910 62428701 qemu_8.2.4.orig.tar.gz
+ 4a5d039bef27c9d47dd62cd9b5d64c20dba08c6f453975d434323495e6721679 139648 qemu_8.2.4-ppa1~sriov~bookworm1.debian.tar.xz
 Checksums-Sha512:
- 5ec326d2ca46a6665711b11f2fb30b5506c60a05cd0f3395bc8d5967c19afca0e6861df39383ee7250a06d43220c98e0008b73212e1b02a00275f0c2c611e369 8487 qemu_8.2.1-ppa1~sriov~bookworm1.dsc
- cff03ab146b09185d18d98738e1771c2ee3117f1e95d4366e1a7827594de45419ede334046ea8119597e4fe39aca31efe7b0f3fd2991ee1aadd247f749b301f5 180444918 qemu_8.2.1.orig.tar.gz
- ab21713202bf6a1d21173a551f343b74649d4debbd2dc559fe7d74c474ac7acbc982d8498e12de7f2d9a52cab826b05a430bf7d32e6c55dc6f03dcfaba282df8 172160 qemu_8.2.1-ppa1~sriov~bookworm1.debian.tar.xz
-Debian-Vcs-Browser: https://salsa.debian.org/qemu-team/qemu
-Debian-Vcs-Git: https://salsa.debian.org/qemu-team/qemu.git
+ 742a487323c0e839416ef80ed6faf1f0075def60b64ffca5e1a30ae98fcd990defb2cc1ea6c487545e597486b5a630a1cbaea5c86aaebc050d98bdb45a49840b 7840 qemu_8.2.4-ppa1~sriov~bookworm1.dsc
+ 94524cfd34befc8257c39054ed217fd6d343f7395571db6c9df9382781d34bea5d8f79fd79e947eb299331e162eb17f6447346da5c7800cb3adc060b2075e81d 62428701 qemu_8.2.4.orig.tar.gz
+ 9b4d0e268dc87410813a9609e00543096a782e340fccc6c75dffba3f0fda74ef0133eedb63a82a944e6276c32482d91bef2b1fabfca054ee47a1d15392140fac 139648 qemu_8.2.4-ppa1~sriov~bookworm1.debian.tar.xz
 
 Package: spice-gtk
 Format: 3.0 (quilt)

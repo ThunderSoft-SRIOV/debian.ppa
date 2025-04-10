@@ -2397,41 +2397,39 @@ Description: Mesa Vulkan graphics drivers
 
 Package: qemu-block-extra-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 319
-Depends: qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-block-extra-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 258340
-MD5sum: a1b37e25f04af7258f9043c8d195d8a4
-SHA1: a9d2c5b4484465952d02b9c3d9c4f3585425f6d6
-SHA256: e86badddfacd7ecea09e2b42599d43bdc5db48e15235606a2b7ea0bd98fad45f
-SHA512: 71a8558ba07245cc70a9f443cd5d5402266335f70f7518079ba423b417cb1f6a240fa810bbad411bf4de4990ac8214176a6ee5b58d31ee91bcf1c213fa6763f7
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 362
+Depends: qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-block-extra-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 293616
+MD5sum: 99f15e84785551f07a20d22f9b169237
+SHA1: fc2393874a1dc60b87ee551fd856a56ecf095818
+SHA256: 30a897258567d6d3592effd6685f12c6ed939efada4d03612e9c7dafb3681379
+SHA512: 3d2a43b1ab47b6e2286c66d981daca27c1293a1e4ae84f8c839ba20ad121f4e9c76a2860f3edc5127c7c9e59cb6f8040d45b8c9d056c4be587c4920edd9d7d8a
 Description: debug symbols for qemu-block-extra
-Build-Ids: 19e0defb82ff23e4594cc8fd64473199b642b39b 290b3e33de1bc39e5b034e4789d951136c188763 6a7e3af2f0a68a8c771095d239be32c01bd01631 6fc15bae58b6a13b2aacde1bf9a4e6918e522091 89d34a1ea3025b7c4f2ac7e7abc27f04feeffe23 b2110d223574c7798cef651565fe52f745ab329a
+Build-Ids: 113b522555335923a8c91ea3d12672f9aa0154e4 11edeae32f286e219b7ae703679d5cf634794339 34e69831c85cfda83b2c76b00643ec3f71491b6a 951e63abc2dea4732fe5d60bcfb8de9ee7394f59 c1ca16e2fbb3b44b76a7e0de16b94e114964255e e1351631a1903b71a24cd1e368b7d5e503cb0725 f4faa73ed89f6a4efa9cab5048693c7c5689b080
 
 Package: qemu-block-extra
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 360
-Depends: libbz2-1.0, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.3), libiscsi7 (>= 1.18.0), libnfs13 (>= 1.11.0), librados2 (>= 16.2.15+ds), librbd1 (>= 16.2.6+ds), libssh-4 (>= 0.8.4), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1) | qemu-utils (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 328
+Depends: libbz2-1.0, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.3), libgfapi0 (>= 10.3), libiscsi7 (>= 1.18.0), libnfs13 (>= 1.11.0), librados2 (>= 16.2.15+ds), librbd1 (>= 16.2.6+ds), libssh-4 (>= 0.8.4), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1) | qemu-utils (= 1:8.2.4-ppa1~sriov~bookworm1)
 Enhances: qemu-system-arm, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-utils
-Filename: pool/main/q/qemu/qemu-block-extra_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 158064
-MD5sum: 75a281eb291a0f0157859cde537c6e6e
-SHA1: e8923ba6514cb684273f3ffeb81e344176b81748
-SHA256: b30e22e52c0ea0bcfe3d95c8785775b0c49c46c4593fb63661229723ac9a81fa
-SHA512: 3af123ffb02cc1b020850ef62a86a5f2fe46187c30d0041c9393f8cae47059f12468caa1df14c625714c5f9591cf4153addaee32e0de4390dbe47616537b8122
+Filename: pool/main/q/qemu/qemu-block-extra_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 98108
+MD5sum: d9d900c9eb2c8dfee313d00d5bb45349
+SHA1: ef8b37bc313460bdc1dc874934db533dbab478d5
+SHA256: e3170553eb6a821ca593c9759579a4e2fcdf8d7239f1bcaa11759bf3da29d4a8
+SHA512: 54331ba6219c4f1a1f3ee1ccea02bb49898a638679fbf315e3f586885b607176604ae5739cb8000bb9846e80d9f322c4b1bd4d2d7f06f54da63ea1f155eccbc6
 Homepage: http://www.qemu.org/
 Description: extra block backend modules for qemu-system and qemu-utils
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -2444,96 +2442,42 @@ Description: extra block backend modules for qemu-system and qemu-utils
  emulation and qemu-img from qemu-utils package, which are rarely used and
  has extra dependencies.
 
-Package: qemu-block-supplemental-dbgsym
-Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 64
-Depends: qemu-block-supplemental (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-block-supplemental-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 48780
-MD5sum: 1e419eeba52ddb64061ef46a85812de9
-SHA1: d3219dd706e4b471eefeebe33311a806123f2c93
-SHA256: bfc4bd8841a91ac296aac613ae2ae955eeb77b2624d7888d63d54da2202c5bce
-SHA512: 6eab4d699e1b9bca55d3cf158b22618788fe0aef2de63825bfe2bfcfb2dd4439c6d545cd6edbdaf9c1d4d84050a4229a1acbf53271872218764a9bbf0f8fbc4e
-Description: debug symbols for qemu-block-supplemental
-Build-Ids: 0e9e8e30f1ae06b070dd2dbf47398ae1d7b893fe
-
-Package: qemu-block-supplemental
-Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
-Priority: optional
-Section: otherosfs
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 50
-Depends: qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1), libc6 (>= 2.4), libgfapi0 (>= 10.3), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1) | qemu-utils (= 1:8.2.1-ppa1~sriov~bookworm1)
-Breaks: qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2~)
-Replaces: qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2)
-Enhances: qemu-system-arm, qemu-system-mips, qemu-system-misc, qemu-system-sparc, qemu-system-x86, qemu-utils
-Filename: pool/main/q/qemu/qemu-block-supplemental_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 11132
-MD5sum: 6714a33cdeb9132b65759a147c44668b
-SHA1: 15f7e5b1077e2d51c17b3821d62290dc7aef8f64
-SHA256: ebb3be19ab36620387f470edb34d4587ef39c1abf985a41124039df66d24d87b
-SHA512: 228574dd86e5e2f326c0a51f3e28a788ffa530dd2ee2a140f16b5404978a42db5e8cb05bbdd18ca5dc64ffef9737f8a0274aa8382db1c59c471a52699a31719d
-Homepage: http://www.qemu.org/
-Description: supplemental block backend modules for qemu-system and qemu-utils
- QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
- CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
- S390x, SH4, SPARC, x86-64, Xtensa and other emulations. By using dynamic
- translation it achieves reasonable speed while being easy to port on new host
- CPUs.
- .
- This package provides supplemental block device backend modules for qemu-system
- emulation and qemu-img from qemu-utils package.
- .
- Currently, the following module is shipped in this package: block-glusterfs
-
 Package: qemu-guest-agent-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1121
-Depends: qemu-guest-agent (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-guest-agent-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 960364
-MD5sum: 1fba7986af59e82df0af4e95224b1ca4
-SHA1: 9de8775c69c421d1e96d7c5e3225a6fe2dcaae56
-SHA256: ef7e5ecf699bd22d0946e3a95fc3b5125ec49bef1b4883a547f629debfe60662
-SHA512: 3272d0f94b858e5007b6848e001ca94dbd372743bedc960b8e87bd8f83e6651cdb91544edecd00437ef8a3b4b72cd566dfca474fafb8964f9d3ca0318fa134fc
+Depends: qemu-guest-agent (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-guest-agent-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 960340
+MD5sum: f43aacd6f104593b4e54dfdee30c79a9
+SHA1: 167d33d67fb2a116c58c69793e134a097b9c5f4f
+SHA256: f21857b5556afedc1bcd413f46282b80fb8618b72b7012f49aa17ef1c4e8cc65
+SHA512: d2cceb1e2ffbe0869cbf2e95677b41d9695c935ec10191e9166ff2fd202f33b7022dbd3a57732a1f0e04a98fa58ba41f0061219b7a0592e8d25d6c38ae756980
 Description: debug symbols for qemu-guest-agent
-Build-Ids: 5ceffd0e83178e897bfe641b239589576de091ce
+Build-Ids: b1a02924c6e1a5a5dde99aadd4ed875680543bc5
 
 Package: qemu-guest-agent
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1188
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 3483
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.63.3), libnuma1 (>= 2.0.11), libudev1 (>= 183), liburing2 (>= 2.3)
-Filename: pool/main/q/qemu/qemu-guest-agent_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 406580
-MD5sum: e3bbb142f179743f4ed02e297556a8c7
-SHA1: b8db13be231d9ae62139c5e148b2141a71714c46
-SHA256: 48e6569da9efe8d6137f164ab49a8a04ea5545a0ac3e6d912f20c89f34ff6840
-SHA512: 30d8aff795770a02a2a1cf3eda2d9520443f02f6702969ebe5369d395f47cdd1d1519a8872a3d913dd4b6507661a5e4e36c0bd0c0f284eddf1806dc32272819b
+Filename: pool/main/q/qemu/qemu-guest-agent_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 514468
+MD5sum: 4e4c560133eb4008d469edff1771e458
+SHA1: 54743aa7a7db58d03df97727d19785b51b7b8115
+SHA256: bf1aca3ab38eb6240e586b61eff84e03a1bbedcaf8591f75e72d859593dcd618
+SHA512: b219566fbe0919e97d549556e42045b4b9cace8b6c24eec1e68e6093a40ecfc7460f5e100044798a2e5dc3fc7117a09d522d5556a4b8945489f1918f79207275
 Homepage: http://www.qemu.org/
 Description: Guest-side qemu-system agent
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -2558,44 +2502,42 @@ Description: Guest-side qemu-system agent
 
 Package: qemu-system-arm-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 45748
-Depends: qemu-system-arm (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-arm-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 41659760
-MD5sum: 5869987d872af25fbdf2aa313ccf0512
-SHA1: 9f3663d3986091ad497430d164f521f830cd073f
-SHA256: 447f82093fbb663e42d6667fa8a6ecec8f53325b8a20c5ccc3b0020935e78277
-SHA512: d24776ed9b71a843830f41c723dc76f8cb6c535f05024170995bc25a6759d111bd1fdf0f1e6642d3c612c345f9af2e9247f49e28c45dc3efc87611b1d6b8be26
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 45801
+Depends: qemu-system-arm (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-arm-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 41712688
+MD5sum: 66084aef8ea9e904f325469d112cf0a6
+SHA1: 4a93ad95897401ac442b9ab250f2c691b1b7871f
+SHA256: 978de6dc288563f86b6475970f771dbcfcfbcf8dacd5d34eef9c9a4fedc71dc1
+SHA512: 189d46a3b55ddebac8c6e34d8185c7544e33096e2284ac2535e41659a853865a679d1eaa4055e5abb68bd743b476937a2965a66ba46b6ead436d0e57ae3ef265
 Description: debug symbols for qemu-system-arm
-Build-Ids: 2c96a65602b355dc8159ab5f7396c7482180dbb0 314b79eaf3a493708a1be430ccfb77203697a8f4
+Build-Ids: 67ce626fb54abf7edd2514673546f217bc0305d0 825faa280df980e2277afce2af7558afecf154b4
 
 Package: qemu-system-arm
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 57070
-Provides: qemu-system-aarch64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-arm64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-armel (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-armhf (= 1:8.2.1-ppa1~sriov~bookworm1)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~)
-Recommends: qemu-utils, ipxe-qemu, ipxe-qemu-256k-compat-efi-roms, qemu-efi-aarch64, qemu-efi-arm, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 57090
+Provides: qemu-system-aarch64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-arm64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-armel (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-armhf (= 1:8.2.4-ppa1~sriov~bookworm1)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.30.0), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libvdeplug2 (>= 4.0.1), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.4~)
+Recommends: qemu-utils, ipxe-qemu, qemu-efi-aarch64, qemu-efi-arm, qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Suggests: samba, vde2
-Filename: pool/main/q/qemu/qemu-system-arm_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 9413640
-MD5sum: 6ef6a0e9c98a9a09534fdd4cc3990142
-SHA1: 343d1e5295dd2b9d5046af4df107976aa3d425bd
-SHA256: a1cd51b33748448b7eeb83aa881fd4c3c0aaef6f1bdbb10ed10af4c976619ef5
-SHA512: 28aff418a9ed1754ae03179149ab8cca3d516f6e63c8bba68eb48c2c5daadb053eb5d7f3eac99fc2f9dc9b774c0d0dacaa34fdae4290720046108421cdbabc93
+Filename: pool/main/q/qemu/qemu-system-arm_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 9404148
+MD5sum: e29933ebbe84629154d5e6401ebd2db6
+SHA1: fed6f4184c322f7e042367a7726573609fa7de80
+SHA256: 0206deeddb72b2c1dd74cb135b7e952d50178e5322e4044c78e9d7cf1ecc8cf2
+SHA512: c7e46f75219687b925c7ff262757d4b6a36c8694327ec8101f34d17827d8c6a7fd6451f57437ad5eff524f91edd64ff9137097d4e6af2bf54e461796a1e7c21f
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (arm)
  QEMU is a fast processor emulator: currently the package supports
@@ -2612,41 +2554,39 @@ Description: QEMU full system emulation binaries (arm)
 
 Package: qemu-system-common-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 3379
-Depends: qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-common-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 2861852
-MD5sum: 1fda49865e9ac9e664ea9cfd49cea1e2
-SHA1: f8ecce184ff0038bb4891753a014952d306722eb
-SHA256: 87e9515ab669c7ad3e986b0755afcacff22072e213b3c73fdaeff5ab3286183c
-SHA512: 020a5c1aa7b2c01eb74b6d314cfd85aed057809de561995322ee824df8902bde7d81d7a63c5b3a6f633c9384b3fa5024eaa529ed760a15d481088646aa0fa21e
+Depends: qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-common-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 2860748
+MD5sum: 74da9ea1bce8a92ba2a3c24327adc557
+SHA1: 1b0238a07cdb7e6674f5e2f7c60446900af03afd
+SHA256: 6b66da49d17c5937a627fb4a8eb59bba7c4ad1f63ac8f6374f8dbdde766892b0
+SHA512: 8fba97f34e6b84864e89ea6ab94b17436be45ab8054a184d8acb6271850017b09bdc9eb3f908e3494e708f21ceedf0ae7ba9a08c6d9a465432d6f065eae6aabd
 Description: debug symbols for qemu-system-common
-Build-Ids: 16e57a3bbc1d1e421579db3f38a04460b72eacc8 2c4f70dffa2c00d987b9027f67fd1aa60f77a5e3 362818c9270ff18b89333fff8c1662b41e75b286 4978d239166dd19d9f7a08991f4ffd39bce648f5 4b166f618c10c3aa2f8a59f0db7d749a5bd1655f 65018866ffc8fe465758a349f9d0fd247a3aff40 7c75c1b2d6ac3820b713120c95dfa1101561524a 9d4d0bfc0683248dfc90fb31f7228aaf3a3d02ef a92905f3c843dab656fc515af8f4bd83311de04e b8422b6593917476a3e7eeabb0111a03f270b5da b9bfdc8b947b01ad0d68638a5d34f34ed6dc0fce c73904daec1e40d36e0dc9d13231fd04f4c23cbf ddf195bd12d516d7a71c5ed0b831786da71bfbc5 e9741841d6fbf51b95ea7861b1bb4d341f639ecf f3712d100aeae7048da94a7e263b8ca5e4bf31b7
+Build-Ids: 0135bedeefd62d12cbdb33a256af517237298e76 08767b3661cb36c2b1d9d23aca1e169aa4fd31c2 1ede5c5ffba1ca1489799a4a51a88a3e920e88a0 2ed4ea6b22f8396986566bb2f2d3a04b0f200077 48a90bb152df0dbdd6c686a91a01e69dedf54c40 610973c200bb37546e04dbda07dbbce1cfdfd51f 73ac0fcaf87a239108cf2fac00809460c9c45cd1 7a2dd79352895d77bb2f21ab5d6129a52a415cc2 7bb8f3ee2ddf8957165c8de2c47917ee19738a36 83df97d722757b4d49c1a8d61afdd3fdadd625e9 a369d6e6719dde75fca935a63c56e6fa9cd0ce30 ae087487fee934b63b3125bfd8e75994f5f4fd21 bb8276a1d724779feea3ec09520cced600c58cd9 c3d4c716909f12f1e7e9332b68c3367d4cc5bd60 d40b3e9392b3f35a7c514f74dac6e7b4fe211ffa
 
 Package: qemu-system-common
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 7063
-Depends: libasound2 (>= 1.0.16), libbrlapi0.8 (>= 6.5), libc6 (>= 2.34), libcacard0 (>= 2.2), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libncursesw6 (>= 6), libnettle8, libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.19.6), libtinfo6 (>= 6), liburing2 (>= 2.3), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0), acl
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 3533
+Depends: libasound2 (>= 1.0.16), libbrlapi0.8 (>= 6.5), libc6 (>= 2.34), libcacard0 (>= 2.2), libcap-ng0 (>= 0.7.9), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libncursesw6 (>= 6), libnettle8, libnuma1 (>= 2.0.11), libpixman-1-0 (>= 0.19.6), libtinfo6 (>= 6), liburing2 (>= 2.3), libusb-1.0-0 (>= 2:1.0.23~), libusbredirparser1 (>= 0.8.0)
 Breaks: libvirt-daemon (<< 7.2.0-1)
-Filename: pool/main/q/qemu/qemu-system-common_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 1207496
-MD5sum: 98249205634ea9b0a6292187bc14d556
-SHA1: 7d894fd2e811243362e01806e2927e7fed2d147a
-SHA256: 9ad7d7bb9e54c44f36bd46b6a3d4418b6a7a46562d4a903ccd3e90314fb8d934
-SHA512: 0e4ea85d832488697a9197d027829f0bfaeb6a263effad4a9c2efd3c7fa5cf857ad314f515f188f06d2daed2c3fce7833db1f984a91eafcab261909f89dfb623
+Filename: pool/main/q/qemu/qemu-system-common_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 882924
+MD5sum: c3089f64bac1640aaf32e75ab1309a31
+SHA1: 8238099dbefb47945ae3ee06a26f894e1d602ec3
+SHA256: 9badd05c2deb160319a32cd8777437f13675392f81c2caeccc8e7ecc54ecc3ee
+SHA512: d1a455444d02800b1873133921c493f129544a9de65bd0a61cd7acb0ce039a8d96edb2a545bc40b14c10a1bcc7447688a70d9e3b9dd96d9831628b7e8822dd9d
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (common files)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -2660,24 +2600,23 @@ Description: QEMU full system emulation binaries (common files)
 
 Package: qemu-system-data
 Architecture: all
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 9029
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 17454
 Provides: openbios-ppc, openbios-sparc, qemu-keymaps, qemu-skiboot, qemu-slof, sgabios
 Conflicts: openbios-ppc, openbios-sparc, qemu-skiboot, qemu-slof, sgabios
-Breaks: qemu-system-ppc (<< 1:6.1-4~)
-Replaces: openbios-ppc, openbios-sparc, qemu-slof, qemu-system-ppc (<< 1:6.1-4~), sgabios
-Filename: pool/main/q/qemu/qemu-system-data_8.2.1-ppa1~sriov~bookworm1_all.deb
-Size: 1617592
-MD5sum: c47acc00b197a528f40b105a48cd377e
-SHA1: 482caea30e8660bea962f78d45eb079084863f1b
-SHA256: 28943c521122995c969d1ee7ee72d550c559ff83057815cda4aff01057692210
-SHA512: fdea8722f0cdccc057fe091c80d32dc14af1ec8bd558d871290376b25c85af2970c7227e7389821769e750431458f62966fa3eb0cabac93a842d999d9a31a8f7
+Breaks: qemu-system-common (<< 1:8.2.2+ds-1~), qemu-system-ppc (<< 1:6.1-4~)
+Replaces: openbios-ppc, openbios-sparc, qemu-slof, qemu-system-common (<< 1:8.2.2+ds-1~), qemu-system-ppc (<< 1:6.1-4~), sgabios
+Filename: pool/main/q/qemu/qemu-system-data_8.2.4-ppa1~sriov~bookworm1_all.deb
+Size: 2069628
+MD5sum: c8a918fa9bcbe08ae92e0b9c7f8765ea
+SHA1: 961e30bf232d4ac7aa585f1e8669c133582d8efd
+SHA256: f7c832a9fdf293cc1addb9b6190c6c569fd85f39ee7d0d2b9bed127eb6a432b5
+SHA512: 241264e1875a4665ea819314c99eb34cdf40b5fa8df6106035cf45c490a3179ae5b909735d74a43f84267388b2729dcf09b5dac6f40217735c2b9cdf24c86f15
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (data files)
  This package provides architecture-neutral data files
@@ -2686,67 +2625,86 @@ Description: QEMU full system emulation (data files)
 
 Package: qemu-system-gui-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 1261
-Depends: qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-gui-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 1077724
-MD5sum: ece37e0a7db2557db87f8e4c080a13db
-SHA1: b9423c795553a524866aefadd05448ba757f02d4
-SHA256: 81fca790664d7d42bfc9daf2d4f3270d4f32ade941fe736bac4518021e3a5fb5
-SHA512: 78c2e78eb5c6ed4f4e0ff3c010bd1601dff6afd27e1e0b0b36ea8371426c689830273f7b8d33394d59c2061a8c10eb375f6c5d6cf6abaff802f57c50d1878021
+Depends: qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-gui-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 1077372
+MD5sum: 9714fe4ef15591d62eaac03cf08fbc64
+SHA1: f7ec2b23f640abc6224ff8bedda3dec30c53535d
+SHA256: 9682b883b3e50497947c7751eb39fa0b3870b756b6a03c56b95360244a86894e
+SHA512: a2803e11bed4134f5cfda76501fdc18016ee6ca94b63f7b104e9198e9e310ba7a4bbd6818964dcd548f4b1d2b41e542bf71c30e354a8766abe8b8588f606984f
 Description: debug symbols for qemu-system-gui
-Build-Ids: 0dd5340792982ec6c4ac08c15274474b24d5ba2c 547766dd42bf4fdb905b75ff77d28cb4bb91d64e 5586fefb388dc6898e8ec008231977757a8f3b72 b81d88204ac99045708d1fc79e785de90a60a0a0 ccf9452c0c5ab19101ebdad61009409182ddd92c e214aa603316ce8288f1d4fff012a0a165c14e26 f6b45412b1defba8d783956efaf17249872260ad
+Build-Ids: 245f0c8d494d421c66dd43a2cd89444face8a93c 418885db9729b3aff3d57e7ba4214fee984c1d8c 4d4d3f29ab9c1608434da978079d8aee7f2afe7b 9b5a8f5246d856dd0aac0dc1040c8918296ceb14 a28927882f974676ae2578c1e75b8a8db9fefdaa ba302d1898d813c5e2cf9ce075ea69cbeb1306a2 da6cf0c6b195efbdaa0b3f4bb1aeba670d40338c
 
 Package: qemu-system-gui
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 1156
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.2), libgbm1 (>= 12.0.0~0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.21.4), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libnuma1 (>= 2.0.11), libpipewire-0.3-0 (>= 0.3.60), libpixman-1-0 (>= 0.19.6), libpulse0 (>= 0.99.1), libsdl2-2.0-0 (>= 2.0.12), libvirglrenderer1 (>= 0.8.0), libvte-2.91-0 (>= 0.49.92), libx11-6, qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), libgl1
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 1091
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.2), libgbm1 (>= 12.0.0~0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.61.2), libgtk-3-0 (>= 3.21.4), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libnuma1 (>= 2.0.11), libpipewire-0.3-0 (>= 0.3.60), libpixman-1-0 (>= 0.19.6), libpulse0 (>= 0.99.1), libsdl2-2.0-0 (>= 2.0.12), libvirglrenderer1 (>= 0.8.0), libvte-2.91-0 (>= 0.49.92), libx11-6, qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), libgl1
 Replaces: qemu-system-common (<< 1:6.1+dfsg-4~)
-Filename: pool/main/q/qemu/qemu-system-gui_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 385872
-MD5sum: 7b6146279c0a3164549a6a39babc104a
-SHA1: 92ed36c0869564b8ceb6b402f81bbf69ae0686aa
-SHA256: 22fab6ba9e74a4e6a731f60aa1c6a1e1904c20edcec4abc39554f29844e6ccee
-SHA512: 3e6d52c3ebcddf4471c7a0573a3effce93f3591ad90163f1539c2385ec56dae1ecb0dc2559a217e2541507a523bd4b5b7eea3efd10854114de97caebdbe8d1c0
+Filename: pool/main/q/qemu/qemu-system-gui_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 319044
+MD5sum: 27b7a07f93372dd51d19966af493e58d
+SHA1: d8bc1be955f8ddf2229821ee3e12497ba63b74e6
+SHA256: 05a79fe7ba0c75cb7a229ec1144aab539e32754e1d4cd98eb68e4f2f8d039fc9
+SHA512: 1c2956733f55ea70cd68d4099ae0005a597172155a74ffcd5f97dec915cbbedc2cd4b4a4be81b7666c347a38e80e38f51ec80516e549dfe790c7b4c0ff740308
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (graphical display and audio modules)
  This package provides optional graphical guest display modules (currently GTK
  and SDL) and audio backend modules for full system emulation (qemu-system-*)
  packages.
+ .
+ This package is not a management/control/GUI interface for qemu, use something
+ else (like virt-manager) for that.
+
+Package: qemu-system-mips-dbgsym
+Architecture: amd64
+Version: 1:8.2.4-ppa1~sriov~bookworm1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: qemu
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 64168
+Depends: qemu-system-mips (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-mips-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 57868672
+MD5sum: f9e86e5899a932377656e193282714ed
+SHA1: cc3fd31ec37c68035f2ba757ffec5ea99efb68d4
+SHA256: f23f4d7d54291902e0857a375a08429355196f8670596d69eea4f489213176b3
+SHA512: 45302337a65c31ea1735e412e0a5d556b105eed62c8689677303c3e5317281763fbf4ac663f614f55f28e41955da4ce06db9eef5550fccb8f2d2e799d062ccfd
+Description: debug symbols for qemu-system-mips
+Build-Ids: 187052c1598fee570fdfd5989037bb6501a95a3c 82c854a1f11ed0580cc9f9112e87754f1cb5eb0f a458e1d6cda5fab5cd38a8a47ab9b0acb798fc6b f99674c39f56d17fe5511e8ffd6002785802341b
 
 Package: qemu-system-mips
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 59623
-Provides: qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-mips64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-mips64el (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-mipsel (= 1:8.2.1-ppa1~sriov~bookworm1)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~)
-Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 59659
+Provides: qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-mips64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-mips64el (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-mipsel (= 1:8.2.4-ppa1~sriov~bookworm1)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libvdeplug2 (>= 4.0.1), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.4~)
+Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Suggests: samba, vde2
-Filename: pool/main/q/qemu/qemu-system-mips_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 14009240
-MD5sum: acb50ee23b2ab7b690a6c34dcc36d800
-SHA1: 468d542a5c30f7c02d61e39bf7fc518b501e1383
-SHA256: 6189a65ae6769b4b71eab6a9ee53f53d08b8588ea6af0d9d9170fe8308c415d8
-SHA512: 58dc958ade183a452ea04f2f9f1bdcb0433b990b18fd7bf948ae09cdf9df12648c2120e6ef751a660de1f1d1df57d45844e1a1378b3042d788156f3b9c8dd9e6
+Filename: pool/main/q/qemu/qemu-system-mips_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 14019064
+MD5sum: bc7ff4ff2e6ca36d25c7dcabde6d87ab
+SHA1: 863123076969633fcbbf8569b0c7404380056cdc
+SHA256: 88276774cb6638d39cd851b3c35e043fc644f49a501655b1fd6d4b0f3d042c90
+SHA512: 5de4c655a38ad9ae22bdb06553b7a1b4265ca063b7a174fd7bb749bc2eeb5c1a34d72b5f5671ed6c83c8ef32005c49c100cd80267ec07c26a5c4d013ed054cc2
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (mips)
  QEMU is a fast processor emulator: currently the package supports
@@ -2763,24 +2721,23 @@ Description: QEMU full system emulation binaries (mips)
 
 Package: qemu-system-misc
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 223330
-Provides: qemu-system-alpha (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-avr (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-cris (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-hppa (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-loong64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-loongarch64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-m68k (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-microblaze (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-microblazeel (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-nios2 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-or1k (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-riscv32 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-riscv64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-rx (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-s390x (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-sh4 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-sh4eb (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-tricore (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-xtensa (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-xtensaeb (= 1:8.2.1-ppa1~sriov~bookworm1)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~)
-Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 223513
+Provides: qemu-system-alpha (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-avr (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-cris (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-hppa (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-loong64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-loongarch64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-m68k (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-microblaze (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-microblazeel (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-nios2 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-or1k (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-riscv32 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-riscv64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-rx (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-s390x (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-sh4 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-sh4eb (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-tricore (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-xtensa (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-xtensaeb (= 1:8.2.4-ppa1~sriov~bookworm1)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libvdeplug2 (>= 4.0.1), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.4~)
+Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Suggests: samba, vde2
-Filename: pool/main/q/qemu/qemu-system-misc_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 50728804
-MD5sum: 66dd3c43ee4c5ea370d01c6d82270e25
-SHA1: e7c7b30dcc17f453df84e07a978ed7d907e9fce4
-SHA256: 9fe1f7447ef76205ea03b76522e1c804c5f6706d14746959bfb5c30f6583c1d0
-SHA512: e935e90654c7bc80c659cb6c56d38c7f4bcb9375e764a3b73f35ed0e97699526a0a61347513aae56f4acd0cbc529b89e8c84b1b2f5138fd94c7431fb5f99f8c7
+Filename: pool/main/q/qemu/qemu-system-misc_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 50746248
+MD5sum: e8a70150c830fee76d216acddfb8ad69
+SHA1: a41bd7098764c13b20d8fc94e8e31b79bb100ae3
+SHA256: d5f46e72af156e76165d1f4f3b8fd042607b377b2fe057a7d89df63ca4358fc3
+SHA512: 24ac6d209d5c9db8a7d717d9a045aa371f2146e1e4771a31f43225757690879fdbc414611bb75adddbbf2e59f69be9320ade0ef7cb9b61814dfdeb519abd4b98
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (miscellaneous)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -2802,42 +2759,40 @@ Description: QEMU full system emulation binaries (miscellaneous)
 
 Package: qemu-system-modules-opengl-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 547
-Depends: qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-modules-opengl-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 399832
-MD5sum: d6c46318334bd0498fa81e1cb18f75a5
-SHA1: f727d5d5aaacf9c09aa4074da623d8c62540066e
-SHA256: 69765b7907ef847e0f2eb52660906c7ca672b8880c4dfa380d28ea7078c51499
-SHA512: 3375370ba2fa41a7459b697de50166470f42faedaffe521feb3d7f606a1fe5ab74799e0542f79ddc8d9c45bf4414e8c38de427deb8cafbf93b369e59993fd72d
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 802
+Depends: qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-modules-opengl-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 565752
+MD5sum: 87b2cae049138a09f934f6bc06ab9926
+SHA1: e034113998ee0fc890ee8d7c3b5b2f12d7989ef0
+SHA256: 9cb71f7e53792d4f96f4c74136c58f4695720337641a1f6c39820565cd18bbce
+SHA512: 6a68e519abd746a7293559fc707a6d32fd79d9e76cf4521cb95323a57e90bae15ddd4636d81255aae74492f3cfac065982c51f9a566ce89b2df58d3c1de19912
 Description: debug symbols for qemu-system-modules-opengl
-Build-Ids: 1ce94228264a1afb54ddb10b47ff381f39677f46 26765312f0f6f76cf63b5a838247482cfc29248b 3bf2dee7b211dafb69da980d418e7b14c6bd4e6b a4e9bab9528106abd213fe52ad0a30bd53ad6bf6 aa373a127bca25c5868ca7f49f19712732da4de0 de798eaf416b14f046b4735e2d0c40ede1cb8f5c e5a5fe52580c8710819fd569a2c02378573373c3
+Build-Ids: 2afa1e2258e7bd9ca7faeace22ece8d5823f89e6 5eb94734e5ddf1896d993b9885d9238b4959c1e6 88b496d4c9071bd34899d8ba0712ea1502f3fe5e a8f356ce7f804ece7672a58429e8a0dbfacbc13c c9d0130f8868e081ceded0fcfdd7f5cd39dc6aac dc28f82a7f283a6cb84a393bf018d5fb403dd3af e5a2fa22c1754649f81a2e7345f8d90eaa782245
 
 Package: qemu-system-modules-opengl
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 584
-Depends: libc6 (>= 2.14), libepoxy0 (>= 1.5.2), libgbm1 (>= 7.11~1), libglib2.0-0 (>= 2.43.2), libpixman-1-0 (>= 0.25.2), libvirglrenderer1 (>= 0.8.0), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 763
+Depends: libc6 (>= 2.14), libepoxy0 (>= 1.3), libgbm1 (>= 7.11~1), libglib2.0-0 (>= 2.43.2), libpixman-1-0 (>= 0.25.2), libvirglrenderer1 (>= 0.8.0), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1)
 Breaks: qemu-system-common (<< 1:8.1.0+ds-1~exp2~), qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)
 Replaces: qemu-system-common (<< 1:8.1.0+ds-1~exp2~), qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)
-Filename: pool/main/q/qemu/qemu-system-modules-opengl_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 195180
-MD5sum: 59a5d1bcf2e7f6d7f555757da8b20dae
-SHA1: 3981148b3d4ef99c58362e63c6f8293891ee048c
-SHA256: d4bad025485b9f265c41042ebdc15cd283c47d32ddaaf46d5ecf2149412eba4e
-SHA512: 551ff6eee1e7b6db048f690b9150869cfc4445d6d1ddbd5a43a4a3a80ce073100a4709b35e1a5d6a52783e77fb7e98f71ae463ed094573852de2024d3fe96aa3
+Filename: pool/main/q/qemu/qemu-system-modules-opengl_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 156356
+MD5sum: 1bdcf9be0e6ee25a21d2042aaede6d19
+SHA1: 42932b02d70fe92a4b7c094fb5de303224531cfc
+SHA256: 85a9dd4fe1c6cf66c164623ca3e7e43b48094d3d87abd09fbf43d2febf36645b
+SHA512: 8747887e3dd1962ec1bb6a6f198735fbf1a168cd8158f8063f1925082c8b7f03a353c02e985a9f81d1f825560566cdf13e4537f0afba30d433fe439f4f85f835
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (OpenGL display modules)
  This package provides optional OpenGL display support modules for QEMU full
@@ -2845,42 +2800,40 @@ Description: QEMU full system emulation binaries (OpenGL display modules)
 
 Package: qemu-system-modules-spice-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 284
-Depends: qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-modules-spice-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 220916
-MD5sum: 1e020e8255ad20f7474943cf7137d95e
-SHA1: 66c3fd66cc4c52bcffae03316ef969bf69a434c9
-SHA256: 4b213b63e30831bdef5696f345ba4d0f4da0d46ee5c56436dc72e20e155a0d82
-SHA512: ccd57a0bfe2afdf66db79675dcbefb76d68f517f19df3c09ff599735ade0a459314ff4f48e4ba602ebe8a702ae6d2587903256a040cecd65849cf1347b204ccd
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 282
+Depends: qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-modules-spice-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 219096
+MD5sum: 53cb605e39ac74ebb1f3d14a9d034b7e
+SHA1: 52f2a892afdcd65a43f09675c13045b3677b3738
+SHA256: 1fb5286430b36f6d43df71ef6d41208e06923e5bd46ebdaa4c08cbd0c6b81648
+SHA512: 1b905a07db45dafd11f184d7efb3d22fa808eec2b35a988e7a7156c648cc1fba54b88823fa8111c18790e41936fedd0758b700bd50a162e82075cb88d13748f6
 Description: debug symbols for qemu-system-modules-spice
-Build-Ids: 160904f446029c4cdc01344a9b5f38b1c4ef0b69 79b9e9323c8d9b4a34faec9165a6f54913aeb9fe b99866d4862ce4eb8aefe2a7e3fc4f40d5ced323 c458e2caa1def00a5051567745bbb162b255fbf8 cb92afdc9d0ec8cd03040d58f7d376633f4f09ea
+Build-Ids: 2797e9813b2878d6d69ca9015d1d52dd424a3b97 68b7339874a7cd7ffed205eb8c4d878d31c29d9b 70619dc6e83101945b662c1ad5783b2299e46687 b324839ed975d180b0b2be85d86b5bfed1586914 bf944afc1f7f613c92fc1ce0a0bdf85cdece18c8
 
 Package: qemu-system-modules-spice
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 362
-Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.30.0), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 297
+Depends: libc6 (>= 2.17), libglib2.0-0 (>= 2.30.0), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1)
 Breaks: qemu-system-common (<< 1:8.1.0+ds-1~exp2~)
 Replaces: qemu-system-common (<< 1:8.1.0+ds-1~exp2~)
-Filename: pool/main/q/qemu/qemu-system-modules-spice_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 162752
-MD5sum: 523b8e8f418250f0b58e9c4bdc253e99
-SHA1: a63c7040507a06aa9c8b20c6b8689b98dc925b24
-SHA256: 4334c6976a50c1e6b36a35f7839eb4c9f0aca02c68e09a5039b5e9aa30466183
-SHA512: b02f735ab55986ed9b690c0594ff7c0d4ee9eec568d82814904d8a56c5dd45bdafca856a3fdbe55843d6fa41c801556fc7fe3e825f1712ad8fbdff774a7710c4
+Filename: pool/main/q/qemu/qemu-system-modules-spice_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 95612
+MD5sum: 0f0015d5489a032ea2286038e8838fc8
+SHA1: 4f0c7536b5b4fdd5bfd5dccdf640fa8b7c85c0bf
+SHA256: 241deba87bf327de694f4837498fc90bd0c132f8008d317575e3ca10b2f881c6
+SHA512: 05f1001c1a673acfb37b9e0200e504b32a2b9975b77014051d4dd563275bebc1e9c4471cef68931103bf86f04f8be171d07b0d5171630293df6be4f7569dfaee
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (spice display modules)
  This package provides optional spice display (qxl and spice-app) and audio
@@ -2888,44 +2841,42 @@ Description: QEMU full system emulation binaries (spice display modules)
 
 Package: qemu-system-ppc-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 36061
-Depends: qemu-system-ppc (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-ppc-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 32607388
-MD5sum: fb8072306dbbfa8637a0770cb35090aa
-SHA1: 100be9f6cc991a0be901f0f43082088646ae798a
-SHA256: 97b7088cc635db35d1a55b586ef01506d5ff31fe4d981d0c7686556e78fd8f1b
-SHA512: c325f31d7eb6e32b10d7a72b4be2e6fdd455fc4a0ba5c311019a0cb1620e4d31353f57b405c3d48a09657d01e7854806bc694ff49e4d5a4ee7278703b9a7b8a5
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 36102
+Depends: qemu-system-ppc (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-ppc-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 32649936
+MD5sum: 25e740b1faf33fddca69202adf3472df
+SHA1: f92361cf7fd518e672a77ace035655d3c80476cd
+SHA256: 9a8cc04e0772e09c9adbae6cce87d2898e1cd5be74753b7cf543cf1702926f7e
+SHA512: c8448b847316e170c0254e981201e7f48655bcf02365ded2fcbb8e0a19c461666415ce5b7da2ad1d81ca43884cb8cda3d88e98ae82e5f3374967dbcaa63dfc13
 Description: debug symbols for qemu-system-ppc
-Build-Ids: 8166ced1f963f3585c8f669a15f39f231f9f19f1 9b2aea236651260280466a0f3ed8135210e38772
+Build-Ids: 63d06a2bfeb73b7a133199f735cbc047ac8e906f b11f61d5ab896c0ffc45ce3c399d88149b2de374
 
 Package: qemu-system-ppc
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 34149
-Provides: qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-powerpc (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-ppc64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-ppc64el (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-ppc64le (= 1:8.2.1-ppa1~sriov~bookworm1)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~)
-Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 34153
+Provides: qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-powerpc (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-ppc64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-ppc64el (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-ppc64le (= 1:8.2.4-ppa1~sriov~bookworm1)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libvdeplug2 (>= 4.0.1), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.4~)
+Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Suggests: samba, vde2
-Filename: pool/main/q/qemu/qemu-system-ppc_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 7777772
-MD5sum: 12acf8a66931778ad8982d806013dbd6
-SHA1: 11d0433a2ad9566f5ab56ed6d88487ad2925c8d2
-SHA256: dcaff57880616c9d344050fd155518e8a9f736d4aa7ddbfe56b8be1f2c71d09f
-SHA512: 85efa8c0adddb91d1c5d11d1474bd4c6305af24dd48aad6784fe1fa4d58f13c9f81ec23f25b4dd2ebff677715b3856057239913299d8e994229fc135b1d73572
+Filename: pool/main/q/qemu/qemu-system-ppc_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 7784872
+MD5sum: 8b203560d6d1f0a98a819a1b0cbd8017
+SHA1: 56432fdb5b4186d141a02eae6f7d8586070d6148
+SHA256: ec278cb6189f8427b91c658e3cb3c3945eed0ebe949d61b1ef453e3f1a5f7632
+SHA512: e04268c159ba73360f50ddc57cc75267d7f005377e7354b7999f8770b125e9c6759563577ce674ba3db939f635d58eb3b28fc61f89cbb0954a3cd707e6c8dac7
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (ppc)
  QEMU is a fast processor emulator: currently the package supports
@@ -2940,78 +2891,44 @@ Description: QEMU full system emulation binaries (ppc)
  code.  It can also be used to provide virtual hosting of several virtual
  machines on a single server.
 
-Package: qemu-system-s390x
-Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
-Multi-Arch: foreign
-Priority: optional
-Section: otherosfs
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 135
-Depends: qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~)
-Recommends: qemu-utils, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-s390x_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 108092
-MD5sum: 1f227ba4029a7b9e6ebc19bc611ea426
-SHA1: a99406dd23a2becd617b161e6f03177fc618dc8b
-SHA256: 2d34a85fbaf727af142b1e81110794105c31a39c658cfcad40ef1ec701ea73fb
-SHA512: 036322c39d32411f0c150e8597780de434169a95fd6a1e4cddebac7d8bd15b44b226e452535351f7c64aeb3a339f13168111665e43c75f91856c333b7a1e8e66
-Homepage: http://www.qemu.org/
-Description: QEMU full system emulation binaries (s390x)
- QEMU is a fast processor emulator: currently the package supports
- s390x emulation. By using dynamic translation it achieves reasonable
- speed while being easy to port on new host CPUs.
- .
- This package provides the full system emulation binaries to emulate
- the following s390x hardware: .
- .
- In system emulation mode QEMU emulates a full system, including a processor
- and various peripherals.  It enables easier testing and debugging of system
- code.  It can also be used to provide virtual hosting of several virtual
- machines on a single server.
-
 Package: qemu-system-sparc-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 24127
-Depends: qemu-system-sparc (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-sparc-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 21504584
-MD5sum: 3aaabfecff7728bef63dbbc221bd09be
-SHA1: e26ae546f41d9bd89f239a9f71769e64ebf5c218
-SHA256: 905ef2ed9d2d5eda08d815b5a412dae83c4e45ca75e4dd789eda73d195cdc3df
-SHA512: 3877956a161ac2407a6a0c6a5704520c35d7a1e67bbd6982756a38f06c27db46490914f633ec67497abd80895712e546061b1545af9cba9912a0e9b51ab32a25
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 24179
+Depends: qemu-system-sparc (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-sparc-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 21556684
+MD5sum: 00e62cc453fb20494b9e600963ebd111
+SHA1: 3bf1e88ef7c4a0fe284505f185090ea8ba2e21be
+SHA256: 5270a216472ba75ed3e67e7698ed50a6e9378b8b7078e95fdf6c400b82261123
+SHA512: b776ffad2f663a5be5ba013ff198307d223084e70a65dd4f580d2caee3a829f9360843b42f78150dbdd639bd67b76faa89a35965ccb35e773642358a5578d003
 Description: debug symbols for qemu-system-sparc
-Build-Ids: 3dba7d4bf4e93bd86cafee8c726c4dc69b73ae97 41fda9bbb10397091fc57c4f51299d1b61dd12bd
+Build-Ids: 5317df169c23847910a8aacc894caeedc3d9e642 f700ac98becf24b049dd28052f88d331fbf7d63a
 
 Package: qemu-system-sparc
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 22043
-Provides: qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-sparc64 (= 1:8.2.1-ppa1~sriov~bookworm1)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~)
-Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 22063
+Provides: qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-sparc64 (= 1:8.2.4-ppa1~sriov~bookworm1)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libvdeplug2 (>= 4.0.1), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.4~)
+Recommends: qemu-utils, seabios, ipxe-qemu, qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Suggests: samba, vde2
-Filename: pool/main/q/qemu/qemu-system-sparc_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 5432016
-MD5sum: 33b64f9e91db06ad05b65c20a9da9f91
-SHA1: d35754dc2841a715f73b7f968aa180d20a064d81
-SHA256: 180b8309569d8d90e9a368c997d10ac23aa159b2a8a86f1136c09d287feb0724
-SHA512: 0bf1a0b85520bb08e39695e13d80e8149d73145c8384c5e05620f49c6e1b664d093c9be9da097fccdb00324da99386736029768ddae5b91938ad1c5ecf03bb2c
+Filename: pool/main/q/qemu/qemu-system-sparc_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 5446616
+MD5sum: 9106b65228c57ef7e9c686beae9ef7e0
+SHA1: 83cfcc901a65c427e5463e0f335c3b10939fe89f
+SHA256: 5652473cc0096da6d1baee83f926978b5908332b791be72cef683d780eebc601
+SHA512: f86f5be9e1a1683d6899c9fd581f9db327b0c2fb7ea525d9bc81da8f7dab8434e94e86a3e5d8c54e4aa445f5cfb00ba0083c35a0448de0c8a001a9ea3f2313d5
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (sparc)
  QEMU is a fast processor emulator: currently the package supports
@@ -3028,67 +2945,42 @@ Description: QEMU full system emulation binaries (sparc)
 
 Package: qemu-system-x86-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 44105
-Depends: qemu-system-x86 (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-x86-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 39580576
-MD5sum: 9a97c9ef3b9be3b21510b4002afb80b2
-SHA1: 6dbf5ee7791595339423f0e0ab2f7fb17f59a019
-SHA256: 039dc60b1ad63af783f2561b802bd6b74b915a995de45823007509c6f016f940
-SHA512: 3c4a058634d2ac0172baa38c7592f3b8e3e792d825937e0e66e9812a4940d966d07e6515e3acb81836c284773584ce53e47e196a4dad9543dbf011b2739f0684
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 44290
+Depends: qemu-system-x86 (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-x86-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 39787000
+MD5sum: 93bb3e0b94e8259d010f84d65b04607c
+SHA1: e4bbdc0ec857c7e22d49de61796c58afabcf6f01
+SHA256: a5013bcef50b7d143fca9e960256c7b0e2733cad77918554c89f836b6453dc84
+SHA512: 90733e7c370046112952defef7be03378bde6d0a28eac82cc43efe353a427ceb021d9b843d70340bf463d38a67ad42c03533fbbafd6258786de166ed242cca9c
 Description: debug symbols for qemu-system-x86
-Build-Ids: 21a1cb69a3e7cf82abb8420451a8f63187acab71 5fda8cfa368c607bddd86ca6f7e0018ab9c1059e ec7507f0abe2c3226cb6eb9a5f5a46a3b175d49b
-
-Package: qemu-system-x86-xen
-Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
-Multi-Arch: foreign
-Priority: optional
-Section: oldlibs
-Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 131
-Depends: qemu-system-xen (>= 1:7.0+dfsg-7ubuntu1)
-Filename: pool/main/q/qemu/qemu-system-x86-xen_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 107660
-MD5sum: d686295fff544415d7f722b597d57653
-SHA1: 86752ac63704d883f6ca11f22de76a0e69eebf56
-SHA256: 2ae695cd362ba3510a0d3ebab8696beb04af92ea3eb04125579b017cf94d846b
-SHA512: 1368a60e1acef77b7c8694667f33a869a22f68bbcf010006bff7cee4d199b82cc7ad673120e0ee509d327e6e84b9d601d448e4a8c41268ba290f4632b7d53eae
-Homepage: http://www.qemu.org/
-Description: QEMU full system emulation binaries (x86)
- The former qemu-system-x86-xen binaries are now in qemu-system-xen.
- .
- This is a transitional package. You can safely remove it.
+Build-Ids: 1908c2aba79de17cdaaae5c239b5578727f31d7f 7448b635cdb54d00440e985d804bf35f27221cff fc4c3a72a89669dc05ca41b8bc27a53f7da57e04
 
 Package: qemu-system-x86
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 57878
-Provides: qemu-kvm (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-amd64 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-i386 (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-x86-64 (= 1:8.2.1-ppa1~sriov~bookworm1)
-Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.1~), seabios, ipxe-qemu
-Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, ovmf, qemu-system-gui (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.1-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1), cpu-checker
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 57963
+Provides: qemu-kvm (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-amd64 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-any (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-i386 (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-x86-64 (= 1:8.2.4-ppa1~sriov~bookworm1)
+Depends: libaio1 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libfdt1 (>= 1.6.1), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libibverbs1 (>= 1.1.6), libjpeg62-turbo (>= 1.3.1), libnettle8, libnuma1 (>= 2.0.15-1), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16 (>= 1.6.2-1), librdmacm1 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libvdeplug2 (>= 4.0.1), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-data (>> 1:8.2.4~), seabios (>> 1.16.2-1~), ipxe-qemu
+Recommends: qemu-utils, ovmf, qemu-system-gui (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-spice (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-system-modules-opengl (= 1:8.2.4-ppa1~sriov~bookworm1), qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Suggests: samba, vde2
-Filename: pool/main/q/qemu/qemu-system-x86_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 9852604
-MD5sum: 0b039e88f7722b6e97a9f03169ba2d42
-SHA1: 8da7f0e9ca5c5e3c4c801715acc48738b063a8cd
-SHA256: 95a5e6b181179531f0ad08a1c28761aa7aeeb32831a265e9ade0b94ac1d7ae1e
-SHA512: 3e03c5d93aa8488e8c70f6a551c1934a8bebc458278b6a676bc1e4e7975f06113f063513d2163ae787e51812b26a50ed595e1c031c66d43ff5fbb2a614b7d7d8
+Filename: pool/main/q/qemu/qemu-system-x86_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 9870252
+MD5sum: 372425157f7ef70b7bca69c3bb4fd73c
+SHA1: 5ea7fe762bbf8294068b3faa83b22f64f56de81a
+SHA256: 26123964d413cd034aeefb0abcd62d49f4d532bde057635b9b3bfad4a2bc7edb
+SHA512: 68767d2f66fcf032207905ae1236960354a3607126b38c0813ad95753ba0740a0d5a9f7110588861cdf5d96d49f8039dfb18b84f568d4052a3dbd17bd0a51f4e
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries (x86)
  QEMU is a fast processor emulator: currently the package supports
@@ -3108,44 +3000,39 @@ Description: QEMU full system emulation binaries (x86)
 
 Package: qemu-system-xen-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 12917
-Depends: qemu-system-xen (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-system-xen-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 11500224
-MD5sum: d7ff5759ab4905971ed8ab06e3fda135
-SHA1: d6b0b38202d7b8f4020e03c9a85db15545ee7ddb
-SHA256: d172ccfdc4cba0806202cb68fa1892c9372fb91023b389fc77ffc93237a35fd0
-SHA512: 964bbe1d7f9f40faedfdc7fe4ee63b0e99e6b1bc308d525e85f1b481aa7cb6c384d33a625b41993156dc37a764a720285d295461d440f95548b356e6141ed464
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 12885
+Depends: qemu-system-xen (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-system-xen-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 11477328
+MD5sum: fa25d9f866ee6d9869e2e0c21acc6a71
+SHA1: 884210acd0b638b88ba765fc75c915e6629e774a
+SHA256: f418843773f139a115e139dbf829a0c8b263c1d014c792bca47025429efbec82
+SHA512: 7a0d608cde8486c5e0e4b16a4c58d9366a5cb64bbe2b32f2c01f331978617c1c35612e638c7677040afe8a83068b0144e122e0fc5f8478837335621cc6128968
 Description: debug symbols for qemu-system-xen
-Build-Ids: 2efb0998f580a30cdb47f2881bd4aa44b78099ff
+Build-Ids: c499a5fab91bd2b458f2d398eec4f5a4bf74a825
 
 Package: qemu-system-xen
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 21640
-Provides: qemu-system-x86-xen
-Depends: libc6 (>= 2.34), libfdt1 (>= 1.6.1), libglib2.0-0 (>= 2.67.3), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libxendevicemodel1 (>= 4.17.5+23-ga4e5191dc0), libxenevtchn1 (>= 4.17.5+23-ga4e5191dc0), libxenforeignmemory1 (>= 4.17.5+23-ga4e5191dc0), libxengnttab1 (>= 4.17.5+23-ga4e5191dc0), libxenmisc4.17 (>= 4.17.5+23-ga4e5191dc0), libxenstore4 (>= 4.16.0), libxentoolcore1 (>= 4.17.5+23-ga4e5191dc0), zlib1g (>= 1:1.2.0), qemu-system-data (>> 1:8.2.1~), seabios
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 21527
+Depends: libc6 (>= 2.34), libfdt1 (>= 1.6.1), libglib2.0-0 (>= 2.67.3), libjpeg62-turbo (>= 1.3.1), libpixman-1-0 (>= 0.19.6), libspice-server1 (>= 0.14.2), libusb-1.0-0 (>= 2:1.0.23~), libxendevicemodel1 (>= 4.17.5+23-ga4e5191dc0), libxenevtchn1 (>= 4.17.5+23-ga4e5191dc0), libxenforeignmemory1 (>= 4.17.5+23-ga4e5191dc0), libxengnttab1 (>= 4.17.5+23-ga4e5191dc0), libxenmisc4.17 (>= 4.17.5+23-ga4e5191dc0), libxenstore4 (>= 4.16.0), libxentoolcore1 (>= 4.17.5+23-ga4e5191dc0), zlib1g (>= 1:1.2.0), qemu-system-data (>> 1:8.2.4~), seabios
 Recommends: qemu-utils, ovmf
-Breaks: qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)
-Replaces: qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)
-Filename: pool/main/q/qemu/qemu-system-xen_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 2925160
-MD5sum: f7c9b4a2ca4b29ccc097c6c59ebdedfe
-SHA1: 6fa11ff8b9810b22a19a032442965431dc25ce44
-SHA256: 94c0ba81b3cb4d314c39e19cd9fa72e1b8f8fdea0a6f73d01b5afa70e3f12de1
-SHA512: d0bb3426afff7bbbc4480d392efccaaae07c01bbba09e54585142ae0853e52bf3192a34294cd10d3b807449ed1876ecf2e7441f2bbb18d4eb80062fac522d779
+Filename: pool/main/q/qemu/qemu-system-xen_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 2874944
+MD5sum: d39abfa46e06adf85a52fe4ff835e93e
+SHA1: 19365711702c4d7b13da50b253391ce25e884e98
+SHA256: 2cd7dfd2593af3bf59a65adc3b55e0c92fc93bb39a0fd4942736549c39274ab6
+SHA512: 39fcb7a5cceda8603741c56e43717a5bb09426d748dd7f3d4bba8e04304df5bf99bfedda2d5dd096da2494d612a35a856ee0568993231a7c4c2d83a98d6df50d
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation (Xen helper package)
  This package provides the i386 system emulation binary to work
@@ -3154,21 +3041,20 @@ Description: QEMU full system emulation (Xen helper package)
 
 Package: qemu-system
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 134
-Depends: qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-system-s390x, qemu-system-misc
-Filename: pool/main/q/qemu/qemu-system_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 109400
-MD5sum: 0c8172ffe40c91c22df904869b4533ed
-SHA1: 49ad288a5f9d21b008b6ebc5597b96dac9c13a63
-SHA256: 87c59ba3c94368616ee55fb0a2a97367498ec7804063b72afd4b1829799a76d7
-SHA512: 3551ab3253dafcf2a943110c56de18bc441b837aad97bfd86b3825541f6469f2c8a644bc101238476ee85a9073c768bf09e114773e3679aeb4d7be4630fbcf8a
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 69
+Depends: qemu-system-arm, qemu-system-mips, qemu-system-ppc, qemu-system-sparc, qemu-system-x86, qemu-system-misc
+Filename: pool/main/q/qemu/qemu-system_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 42220
+MD5sum: 70a8ce65ba769bacdd9b28847bcd294d
+SHA1: 208407962671791fca5cc29e2ee698d07a2bf325
+SHA256: 05dc6dbcd58e4b937a7838aaffb9122ae2b8a19902adc5824980323fd14cbc69
+SHA512: 78597e194482b59277f71ed55e6494b3c7a2dedf4ea5f6068e25368fd67d58b13a943b5e05005ddc1efa61cf3f463bec265d0246cd1dffd7034313189804315f
 Homepage: http://www.qemu.org/
 Description: QEMU full system emulation binaries
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3183,23 +3069,22 @@ Description: QEMU full system emulation binaries
 
 Package: qemu-user-binfmt
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Installed-Size: 71
-Depends: qemu-user (= 1:8.2.1-ppa1~sriov~bookworm1)
+Depends: qemu-user (= 1:8.2.4-ppa1~sriov~bookworm1)
 Recommends: systemd
 Conflicts: qemu-user-static
-Filename: pool/main/q/qemu/qemu-user-binfmt_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 3828
-MD5sum: fcc74daad13e7086a801ce39224bd07e
-SHA1: 4192376423719b83e83c17297e1549c248e83acc
-SHA256: a5da3423b21ecebbdb1aaa78ca1ae687002c27b1bae5bc14ffc9c3a027a60c25
-SHA512: c5a5cd7375a529ad1f3e223bcfc1d164fb641eca3fd5bcd0324db0f360dcc78ca1755e472efaa72d194056ea74500ab1885ab7f7ca81759c2831a16808a9ac88
+Filename: pool/main/q/qemu/qemu-user-binfmt_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 3776
+MD5sum: 49eeb6a04b408bc9f44760e4fa315122
+SHA1: a24c14badb10db3f1cc7b9f897c409117f7d1e48
+SHA256: 74c5cd5c9e70d5c96f2102758aa8e5610756d7b7ebc6c99be818bd79176fb56c
+SHA512: c699c43f0216c4f7b2c9003b99ed8d00a25dde455f4eac376e7b3ba8150de51fe485fab39cc946bb0e0e9e7df36ef9d52e5228bd9726e932414d29b5fa32137b
 Homepage: http://www.qemu.org/
 Description: QEMU user mode binfmt registration for qemu-user
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3215,24 +3100,23 @@ Description: QEMU user mode binfmt registration for qemu-user
 
 Package: qemu-user-static
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
-Built-Using: elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.36-9+deb12u9), zlib (= 1:1.2.13.dfsg-1)
+Version: 1:8.2.4-ppa1~sriov~bookworm1
+Built-Using: capstone (= 4.0.2-5), elfutils (= 0.188-2.1), glib2.0 (= 2.74.6-2+deb12u5), glibc (= 2.36-9+deb12u10), zlib (= 1:1.2.13.dfsg-1)
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 157152
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 381417
 Provides: qemu-user-binfmt
 Recommends: systemd
 Conflicts: qemu-user-binfmt
-Filename: pool/main/q/qemu/qemu-user-static_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 19587716
-MD5sum: b6e28cb9b9ec5c85dc4e77d23f3fd6fc
-SHA1: 4d7a87dec1dac2ba25d5f28934f5e1bb1ac91214
-SHA256: 3ba59ae4ecf29a0bc9f88d44cdbd2682b3c17766f6e0d8266f030fe77bba0fa3
-SHA512: 09d443cbf66a81d4ff477bf8ad8af7dbab90339860c73736765909c34dc83c740ed1ecc3dd539d66d368cb2410a713824fb0ae49791a7a324e26362f0ec4865b
+Filename: pool/main/q/qemu/qemu-user-static_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 62724072
+MD5sum: cb3b132aa1e6807b0e0f3b65780ec3c7
+SHA1: 97bd2059e5cb87bf0f9565929170a3bba6d6a204
+SHA256: a1b5164f7fef126d6af504b12a197c9df909fd0699b6c51416b07a4d283939e3
+SHA512: 57019a486fe2c68d77f4a68ba7bbdaa81086cc173ce6ce86a5899c1a059e0441e321031b13feba9eeb7d7b2e3ea4a0cf7d12630c3d4f94214e2316509019f52c
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries (static version)
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3251,22 +3135,21 @@ Description: QEMU user mode emulation binaries (static version)
 
 Package: qemu-user
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 92582
-Depends: libc6 (>= 2.34), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 92728
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libdw1 (>= 0.158), libglib2.0-0 (>= 2.61.2), zlib1g (>= 1:1.1.4)
 Recommends: qemu-user-binfmt
-Filename: pool/main/q/qemu/qemu-user_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 11062672
-MD5sum: fff23e6e6ad9ad3ed17b411c0542639d
-SHA1: f8e057114c03eccb0738ddaa5a33d0847ee14b54
-SHA256: 9ed513ebfc13679ab0e7e8abb32366278f9411398b67fc9234d5ed77a4adaea4
-SHA512: e5d541baa29628896b5b06cd7a41ec53159ae8b388ef37f398d192bcffc39a17a8330156073c73ee692d0961d1d70c179e57eb834617c7b03968e5f544a1f6d0
+Filename: pool/main/q/qemu/qemu-user_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 11027448
+MD5sum: 594b4c4b99e3c20649aaa3d01d071a64
+SHA1: c4a23802539fe4b8e0a62b087313afa9f24d18eb
+SHA256: fca902b18a10962c1e18b189ad17a07cc11563a47d6a5a0c51385546d48b09fe
+SHA512: 145c0badcfc0f027c8a15d17538a2bfc96d1e90a6063e312ba7c87193485d6fc9a5e3cbba0635f561111a3914af6eb54ab177cd8e3abe8f09ccdd4f52678d361
 Homepage: http://www.qemu.org/
 Description: QEMU user mode emulation binaries
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
@@ -3287,44 +3170,42 @@ Description: QEMU user mode emulation binaries
 
 Package: qemu-utils-dbgsym
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 13260
-Depends: qemu-utils (= 1:8.2.1-ppa1~sriov~bookworm1)
-Filename: pool/main/q/qemu/qemu-utils-dbgsym_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 11762528
-MD5sum: c0ad9fa0d0cd49f1491d20259d0effe8
-SHA1: 99e60984b6efc4be08aacb0eafedc453eb7e92a0
-SHA256: 8374f965682c8bf23b9d55e7fc65f52475aac1a9e0c94b7c05c3f094b7d5ce28
-SHA512: 5d657b1c405355751fba2e525547e3a8f24236c4e144156324d9c73745f65c1c1a520c900ac64a8e7d546c02e25aa858311e112d111dcea3034d4e051c4aaf08
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 13259
+Depends: qemu-utils (= 1:8.2.4-ppa1~sriov~bookworm1)
+Filename: pool/main/q/qemu/qemu-utils-dbgsym_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 11780048
+MD5sum: 786bc44bfdbbb5846cf3c06b67c5c939
+SHA1: 7d1215d146838892e8c01ac4d0ad7c3f35231c80
+SHA256: 5b90f380bf41f68199f4558e99182506d79ffdbd15def66d312331fc2d2b6eac
+SHA512: eec7068afbf5cb6ae1d3d2804637bc8996c3ba59de84bab17edebaad67807dc6210ee27e8184f2cc277901fa3013a0fa99ecc813579ea4cd01183f8bdfdf8f7d
 Description: debug symbols for qemu-utils
-Build-Ids: 14688ecabed811efc5dca68909e29d3920c579c1 3c2ce971ae11133418436848debc82fe330462b1 90e491b1739c65e368ed1d0814aeba6762eb0741 b890b40b1a6880bc4c9b2297bcbf7696aae83c1a
+Build-Ids: 07eb9dcae2ae7ad71ada6a5fc75821c1474cb23b 0cd0917aa894c40326bbd04dac0e5606ef26053e 52fb95cbcd6b80ac0c0c13e69f9e0b757bdf3f21 6088282ada54c3bde4881a4d894018eaee8069c1
 
 Package: qemu-utils
 Architecture: amd64
-Version: 1:8.2.1-ppa1~sriov~bookworm1
+Version: 1:8.2.4-ppa1~sriov~bookworm1
 Multi-Arch: foreign
 Priority: optional
 Section: otherosfs
 Source: qemu
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Installed-Size: 10622
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 11689
 Depends: libaio1 (>= 0.3.93), libc6 (>= 2.34), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3), libgmp10 (>= 2:6.2.1+dfsg1), libgnutls30 (>= 3.7.5), libhogweed6, libnettle8, libnuma1 (>= 2.0.11), libselinux1 (>= 3.1~), liburing2 (>= 2.3), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
-Recommends: qemu-block-extra (= 1:8.2.1-ppa1~sriov~bookworm1)
+Recommends: qemu-block-extra (= 1:8.2.4-ppa1~sriov~bookworm1)
 Breaks: qemu-system-common (<< 1:8.0+dfsg-5~)
 Replaces: qemu-system-common (<< 1:8.0+dfsg-5~)
-Filename: pool/main/q/qemu/qemu-utils_8.2.1-ppa1~sriov~bookworm1_amd64.deb
-Size: 1860284
-MD5sum: 52a46bbe5841a6a03ff0423f50118f08
-SHA1: f8b3b3d3f2d97a17a4d79d708bab6c074a8874d5
-SHA256: c9e7417dac7655d7345f7b16864150379cddc3914224a657da229269e112709d
-SHA512: 9928a3117cfc6bd15f3b97440f376d02a6ade0e7246b562f9fd9d133e78dcd0341eb539998e4eadb56d5ff1b9898da617bc6c58f335e37a1852a31bdb5838692
+Filename: pool/main/q/qemu/qemu-utils_8.2.4-ppa1~sriov~bookworm1_amd64.deb
+Size: 1890224
+MD5sum: 5963f614a57122ba6983b6cd7765d867
+SHA1: 464fc9c7c6998a139c8bd049dce58adc80c31981
+SHA256: c2c56cbfdaf1a975849ed247f3b51d1ddfca9275542e9c09454bbb6488333e03
+SHA512: b05155da3e50d75254c15dbdbfb46f6be650a660bc370e102170fdeefa4bf37422cd7fe2cd2b772f775f9ee2f67d12b6ac7b993b7fd8f9fd8fb0b0a91f1b5038
 Homepage: http://www.qemu.org/
 Description: QEMU utilities
  QEMU is a fast processor emulator: currently the package supports Alpha, ARM,

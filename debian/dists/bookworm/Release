@@ -2,39 +2,39 @@ Label: thundersoft-sriov-bookworm
 Suite: stable
 Codename: bookworm
 Version: 1.0
-Date: Mon, 24 Mar 2025 02:19:58 +0000
+Date: Thu, 10 Apr 2025 06:13:08 +0000
 Architectures: amd64
 Components: main
 Description: Intel Graphics SR-IOV On Debian
 MD5Sum:
- 693bdf2cedc315ac138dc58d9f6df366               38 Release
- b3cea2ec68dbc474c6589382e1373c78           198839 main/binary-amd64/Packages
- dcb1307f0ba44f09ef447ca97102c92b            50138 main/binary-amd64/Packages.gz
+ f1a807f55d7355b32776fe4ea8545d26               38 Release
+ fafa323d15a593c7150055eaa479c128           192285 main/binary-amd64/Packages
+ 4fed79798d4c2137644f454bb367076d            49401 main/binary-amd64/Packages.gz
  6647e27c5c62fe2befaf2b32ce8f5633              179 main/binary-amd64/Release
  98f413d973fba64e7f310612978571bf              180 main/source/Release
- 54c997363f9bfbb9c76330e6563ba6ce            35476 main/source/Sources
- 4013c1225bd3f1735348a31ef23972f3             9783 main/source/Sources.gz
+ b027e86b8ea9f1bbeecd9261fcced999            34828 main/source/Sources
+ 023acdb404d47d48b47ba87447b95792             9717 main/source/Sources.gz
 SHA1:
- 4c2f25cd7459fb928189b427be3a2bf8a041c4da               38 Release
- 77324126dae728607375e5bca5cbec29e52e6336           198839 main/binary-amd64/Packages
- 33da9a53d408feb183602369857d2cbb9b838bef            50138 main/binary-amd64/Packages.gz
+ 6c0d4733e56b1e327a65f6d7dc8432bec0e770cc               38 Release
+ a2c89b8a65eafd9b9f2f54dc053b1f592b8b547c           192285 main/binary-amd64/Packages
+ d8320394cbe6a98c5015f1003ed9c86e326291f6            49401 main/binary-amd64/Packages.gz
  2e6bf0facf3c6107214b37b2d16fdee4c1d11f67              179 main/binary-amd64/Release
  296ff85333ede3f5455999dedb0c056206981db8              180 main/source/Release
- 11d5d24093e751311b064923a8fe3038428ae934            35476 main/source/Sources
- 8ea85d196e85a5cfbe7b8c13b4c371b5d8e10408             9783 main/source/Sources.gz
+ f4fb7795c0302fc069e2931a7fde64dc84f5678a            34828 main/source/Sources
+ 6d4c8b6fd5456c3e1b96ca2f8d4b293d97b32ac3             9717 main/source/Sources.gz
 SHA256:
- 377c705b2ed70244c6dca249394fe8f3547359e926a0948d83450129ebbbd4b0               38 Release
- 78d90805d6ebd24e86dc05a304a55458ad3892e3ef5bf4922a43be4fa34bc680           198839 main/binary-amd64/Packages
- e27fe3f1f90a2cf9b826faf23bb94df175f47f03c74c53ef66add36d537e9447            50138 main/binary-amd64/Packages.gz
+ 0c539563c874d6afd424a6a38c15f542d249e1ee7d7cf3d495f25cac99ef4ee6               38 Release
+ 26bbf420e2b78357db79f8623c03172aea555119c66369b3af1da5a84634de5e           192285 main/binary-amd64/Packages
+ df856dd16b10a5c4c95eaeb0f78c6cad4c56a507f9e36c444b04084e75380fe0            49401 main/binary-amd64/Packages.gz
  c0b1fa160ef5feefc12d98fafbf71d04af9086152f68166b23bca7fc8555db0c              179 main/binary-amd64/Release
  4fbb89ffbb9db9be2341494a64ee269e58782f1c3a3d1e105621647c1d12a51a              180 main/source/Release
- 718c0ea5336179054fbf03f1f03b95c2b65df4f2d147d33f16da4298fa298425            35476 main/source/Sources
- 64c467ba6001e9039bf7e47c3cdd4cd66a5aade961978d8ffe8eec21ea5c01bb             9783 main/source/Sources.gz
+ 0c378ee5706910e817090fabe501ade640868f37980034451a732c793012f37c            34828 main/source/Sources
+ 6bbe9d840eb0f107148bd9f05ea2b786e620571f77f3258a31aa898342b7e07c             9717 main/source/Sources.gz
 SHA512:
- 64303935e3cf760cbc0367ca98167b3a66b1d2e7bf38da8b343744c8209dd0b0d1180edfe873985346a6ee91020a277b07f3aa39304e3f7e06cbe3557a2ef58b               38 Release
- d755b8fb2b83def991dafd1800d8c85a559ed10f85aae192a887e4f68d35b52a0f1da01379c806b564be0a556be06d6ec228b09d7d7692188d1fa240b1e1292a           198839 main/binary-amd64/Packages
- f773026db09e0144a52d99367f312712c0ebaff5f90d288973b722ef0d7767feee6d1f9992c167747b28c4cb4dfe3d614d8df310924cf0d88af17090edcbb41e            50138 main/binary-amd64/Packages.gz
+ ef447a94fc9d40cbd31ec2ec7093e0de90f2fb938f78d4579a8943f8fafc8c93eacbb6e081e9f40de5efb18459cc7062ec729e0ebb442ca4d8d7854c4b69fd71               38 Release
+ 360ccfb2e76b9ad3857f67bf5be2965ca8404c28be4fca94589de2f8b482d032f164630bf9b5346decc96855d943d7508aadc20e108a20ef2d3ac7f253015d11           192285 main/binary-amd64/Packages
+ 1d19e97173967a92e46a0ba63b912f2a6554f8342b8706412f4c804d9aae790a956a41250fe607e5b60d56a878734db732e368eba3459e8bfc77a6c6b81c29f3            49401 main/binary-amd64/Packages.gz
  729aa0da2c65aa75f27149996d5dbc19a9fbf2d2f4e9206df2fa2d7279872775e0da80bb747c8a4f47036f635a5756af9c917e757fb4d2491d1f0057cd00837f              179 main/binary-amd64/Release
  81aec667fb9c1a5d9ade50b4e66f9fbdc0ff0d13e354870a9942decd0377de3ba295e8fb008b6b1b65819d79be8cf9da1b8acfffdd7dd2d5be2c458bb722fc20              180 main/source/Release
- 7af090b3e1db1d7bcee738d021fcb72b1ff2808041632c5f6bdba89482ad690886baff8a9362f7d0800cdd9f71b58d6d62f2e4db96260d881efe0fadf22236b1            35476 main/source/Sources
- 6e119e9cff18a153c0bd51d4d1b3c14bdb8377cd9ee944d9194e77c1e810441e78568f2903988ebf7ab1f0774224a26622c52095d19c15b3346c37d17bf7e981             9783 main/source/Sources.gz
+ e11578781515403e9fcfb9ed234c1921823f55904ccb9cbeb47dbebda73081d07fdf417092ab2990ed14a410b5745adc177823e4cd93ab5cde8579cc3ba137e9            34828 main/source/Sources
+ 1391150d124684665d695334120ad3ad54004cb419f5d2f709ce3c98973a1e87444ea8fb5ba53c1abd618729b956bcc0053904bdca5ef33808be18e5359ca6ef             9717 main/source/Sources.gz
