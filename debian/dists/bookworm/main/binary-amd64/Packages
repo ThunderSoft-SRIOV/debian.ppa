@@ -859,11 +859,11 @@ Source: linux-intel-6.6
 Maintainer: lab_bldmstr <true>
 Installed-Size: 406951
 Filename: pool/main/l/linux/linux-image-6.6-intel_241025t055939z-r2_amd64.deb
-Size: 77014264
-MD5sum: b72ffb1b19dba45986cb43dae8e925b2
-SHA1: 0b158179ba8e99c6784c2b4bf85dd51f84db48c4
-SHA256: 2785ae7539b28e1ce0f8b75995362110e6832816493e3eb17e8f8e009589531d
-SHA512: 1d6fb9129aae7e925b5bdd9e6f0c2013c982460c1c6faa15e95dbdc94996717e940ca3f59b3943ce52100a8eb00ead066d7b70f40c17870ccf43ef1296adea09
+Size: 77007572
+MD5sum: 056edb815342cb6e6f7eff1a70b5282f
+SHA1: 2693dcdf5827d58e47a97d4dd7584da00b73f1a0
+SHA256: 5303f113ef15c94faab7ed497701c06d11579395f7de6a10478bfa024b2e84c3
+SHA512: 5b04a97b622a1d8ce1cb225a62a726e4c5b607c71c2730a65a7902859fa4b453db3c32ae1f4b169b4166590aa5af556283b824096d19afd441e70f63c4b41401
 Homepage: https://www.kernel.org/
 Description: Linux kernel, version 6.6-intel
  This package contains the Linux kernel, modules and corresponding other
